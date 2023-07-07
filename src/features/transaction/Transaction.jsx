@@ -31,7 +31,7 @@ function Transaction() {
           </label>
           <br />
           <input
-            type="number"
+            type="text"
             name="amount"
             className="mt-2 w-9/12 px-2 rounded-md h-10 bg-transparent border-2 outline-none focus:ring-2 focus:border-0"
             placeholder="Transaction amount...."
