@@ -1,7 +1,7 @@
-import Summary from './features/summary/Summary';
-import Histories from './features/History/Histories';
-import Logo from './ui/Logo';
-import Transaction from './features/transaction/Transaction.jsx';
+import Summary from '../features/summary/Summary';
+import Histories from '../features/history/Histories';
+import Logo from '../ui/Logo';
+import Transaction from '../features/transaction/Transaction.jsx';
 
 function Tracker() {
   return (

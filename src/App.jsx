@@ -2,7 +2,7 @@ import {
   RouterProvider,
   createBrowserRouter,
 } from 'react-router-dom';
-import Tracker from './Tracker';
+import Tracker from './Pages/Tracker';
 import { action as trackerLoader } from './features/transaction/Transaction';
 
 function App() {

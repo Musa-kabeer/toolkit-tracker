@@ -1,5 +1,5 @@
 import Button from '../../ui/Button';
-import { Form, redirect } from 'react-router-dom';
+import { Form } from 'react-router-dom';
 import store from '../../store';
 import { addTransaction } from './accountSlice';
 
@@ -56,5 +56,5 @@ export const action = async ({ request }) => {
   };
 
   store.dispatch(addTransaction(res));
-  return redirect('/');
+  return null;
 };
